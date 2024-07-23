@@ -1,0 +1,11 @@
+framework module Mydy {
+  umbrella header "Mydy.h"
+
+  export *
+  module * { export * }
+}
+
+module Mydy.Swift {
+  header "Mydy-Swift.h"
+  requires objc
+}
